@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i');
+
+body{
+    margin: 0;
+}
+
+h1{ /*CHARLES WANG*/
+    font-family: "LeagueSpartan-Bold", sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+h2{ /*SUBTITLE*/
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+h3{ /* BODY TITLES*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+h4{ /*MENU ITEM*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: .5em;
+    text-align: center;
+    
+}
+
+h5{
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+
+#landing {
+    margin: 5em;
+}
+
+
+#titleHeader {
+    height: 25em;
+    width: 25em;
+}
+
+
+.demoSize{
+    display: block;
+    margin: 0 auto;
+    width: 40em;
+    height: 30em;
+}
+
+#nameHeader {
+    text-align: right;
+    padding-top: 1em;
+    float: right;
+}
+
+
+#navBar {
+    padding-top: 1em;
+    height: 6em;
+}
+
+
+.menu{
+    min-width: 300px;
+    padding-top: 1.5em;
+    float: left;
+}
+
+#nameHeader a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.video {
+    height: 25em;
+    width: 65%;
+    float: left;
+    padding-bottom: 2em;
+    
+}
+
+.video3D {
+    height: 25em;
+    width: 45%;
+    float: left;
+    padding-bottom: 2em;
+    
+}
+
+#body {
+    padding: 3em 5em;
+}
+
+
+.project {
+    width: 50%; 
+    float: left;
+    height: 50%; 
+    background-color: lightpink;
+}
+
+
+.aboutme {
+    max-width: 30em;
+    margin-bottom: 4em;
+    text-align: justify;
+}
+
+#mobileMenu{
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #fff;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 50px;
+}
+
+.menu a:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+}
+
+
+.art {
+  background-color:green;
+  margin: 0 18px 18px 18px;
+  width: 220px;
+  height: 220px;
+  
+}
+
+
+button {
+  background: blue;
+  width: 220px;
+  height: 220px;
+    padding: 0; 
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+.btnimage {
+    width: 220px;
+    height: 220px;
+} 
+
+
+
+.content {
+    overflow: scroll;
+    background-color: #efefef;
+    padding: 2em;
+    padding-bottom: 13em;
+    position: relative;
+    
+}
+
+.overlay1 { 
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.flex-container {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.navBarDesktop {
+    padding: 0 5em 0 4.25em; 
+    max-height: 10em;
+}
+
+.hvr-underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  height: 2px;
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.infoBox {
+    width: 230px; 
+    float: left; 
+    background-color: #efefef;
+    margin: 1em;
+}
+
+#demoReelDescript {
+    float: left; 
+    padding-left: 5em;
+}
+
+.noScroll {
+    overflow: hidden;
+}
+
+
+.close {
+    transition: 0.2s;
+    top: 5em;
+    right: 1.5em;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.overlay1wrapper {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 7em;
+    left: 0;
+    transition: .5s;
+    
+}
+
+.artDescript {
+    float: left; 
+    padding-left: 5em;
+}
+
+
+.art3D {
+    width: 600px;
+}
