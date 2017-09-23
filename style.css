@@ -43,8 +43,9 @@ h4{ /*MENU ITEM*/
 h5{
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 300;
+    margin: 0;
 }
 
 p{
@@ -74,21 +75,27 @@ p{
 
 #nameHeader {
     text-align: right;
-    padding-top: 1em;
-    float: right;
+    padding-top: 1.5em;
+    padding-right: 5em;
+
 }
 
 
 #navBar {
-    padding-top: 1em;
-    height: 6em;
+    height: 7em;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    background-color: white;
 }
 
 
 .menu{
     min-width: 300px;
-    padding-top: 1.5em;
+    padding-top: 1em;
     float: left;
+    padding-left: 5em;
 }
 
 #nameHeader a{
@@ -98,8 +105,8 @@ p{
 
 
 .video {
-    height: 25em;
-    width: 65%;
+    height: 30em;
+    width: 55%;
     float: left;
     padding-bottom: 2em;
     
@@ -115,6 +122,8 @@ p{
 
 #body {
     padding: 3em 5em;
+    position: relative;
+    top: 6em;
 }
 
 
@@ -130,6 +139,7 @@ p{
     max-width: 30em;
     margin-bottom: 4em;
     text-align: justify;
+    padding-left: .5em;
 }
 
 #mobileMenu{
@@ -197,7 +207,6 @@ p{
   margin: 0 18px 18px 18px;
   width: 220px;
   height: 220px;
-  
 }
 
 
@@ -250,8 +259,7 @@ button:focus {
 
 
 .navBarDesktop {
-    padding: 0 5em 0 4.25em; 
-    max-height: 10em;
+    width: 100%;
 }
 
 .hvr-underline-reveal {
@@ -306,12 +314,13 @@ button:focus {
     width: 230px; 
     float: left; 
     background-color: #efefef;
-    margin: 1em;
+    padding: 1em;
 }
 
 #demoReelDescript {
     float: left; 
-    padding-left: 5em;
+    padding-left: 2.5em;
+    background-color: pink;
 }
 
 .noScroll {

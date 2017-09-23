@@ -1,0 +1,144 @@
+@media (min-width: 1700px) {
+    body{
+        max-width: 1700px;
+        margin: 0 auto;
+        
+    }
+    
+    #navBar{
+        max-width: 1700px;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    #body{
+        padding: 0em 1em 1em 1em;
+        margin-top: 1em;
+    }
+    .menu{
+        display: none;
+        width: 0;
+    }
+    
+    #nameHeader{
+        color: white;
+        padding-top: 1.5em;
+        padding-right: 3em;
+    }
+    
+    #nameHeader h1{
+        color: white;
+        
+    }
+    
+    #mobileMenu{
+        display: unset;
+    }
+    
+    #navBar{
+        height: 6em;
+        background-color: black;
+    }
+    
+    .art{
+        width: 250px;
+        height: 250px;
+        
+    }
+    button{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .btnimage{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .navBarDesktop{
+        padding: 0 2em;
+    }
+    
+    .video{
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    .infoBox{
+        width: 505px;
+        float: none;
+        margin: 2em auto;
+        
+    }
+    
+    .aboutme{
+        padding-left: 0em;
+    }
+    
+    .overlay1wrapper{
+        top: 6em;
+    }
+    
+    
+.close {
+    transition: 0.2s;
+    top: 4em;
+    right: .5em;
+    position: fixed;
+    z-index: 2;
+    visibility: hidden;
+    cursor: pointer;
+    font-size: 25px;
+}
+}
+
+
+
+@media (max-width: 600px) {
+    #nameHeader{
+        text-align: right;
+    }
+    
+    #nameHeader h1{
+        font-size: 20px;
+    }
+    
+    #nameHeader h2{
+        font-size: 7pt;
+    }
+    
+    .navBarDesktop{
+        padding: 0 1em;
+    }
+    
+
+    
+    .video{
+        height: 18em;
+    }
+    
+    
+    .infoBox{
+        width: 320px;
+        float: none;
+        margin: 1em auto;
+        
+    }
+    
+    .art{
+        margin: 5px;
+        width: 170px;
+        height: 170px;
+    }
+    
+    button{
+        width: 170px;
+        height: 170px;
+    }
+    
+    .btnimage{
+        width: 170px;
+        height: 170px;
+    }
+}

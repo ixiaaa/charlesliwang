@@ -9,13 +9,13 @@ function closeNav() {
     document.getElementById("mobileMenuContent").style.width = "0%";
 }
 
-//$(":button").click(function() {
-//    $("body").addClass("noScroll");
-//});
-//
-//$(".close").click(function() {
-//    $("body").removeClass("noScroll");
-//});
+$(":button").click(function() {
+    $("body").addClass("noScroll");
+});
+
+$(".close").click(function() {
+    $("body").removeClass("noScroll");
+});
 
 function openPopUp(thisid) {
     document.getElementById("closebutton").style.visibility = "visible";
