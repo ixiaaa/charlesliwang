@@ -329,9 +329,9 @@ button:focus {
 
 .close {
     transition: 0.2s;
-    top: 4em;
+    top: .75em;
     right: .5em;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     visibility: hidden;
     cursor: pointer;
@@ -351,11 +351,18 @@ button:focus {
 
 .artDescript {
     float: right;
-    width: 45%;
-    background-color: mediumpurple;
+    width: 50%;
+    padding-bottom: 2em;
 }
 
 
 .art3D {
-    width: 600px;
+    width: 45%;
+    display: block;
+    padding: 0 2em 2em 0;
+}
+
+.logo {
+    width: 35px;
+    padding-right: 10px;
 }
