@@ -75,7 +75,7 @@ p{
 
 #nameHeader {
     text-align: right;
-    padding-top: 1.5em;
+    padding-top: 2em;
     padding-right: 5em;
 
 }
@@ -93,7 +93,7 @@ p{
 
 .menu{
     min-width: 300px;
-    padding-top: 1em;
+    padding-top: 1.5em;
     float: left;
     padding-left: 5em;
 }
@@ -116,7 +116,7 @@ p{
     height: 25em;
     width: 45%;
     float: left;
-    padding-bottom: 2em;
+    padding: 0 2em 2em 0;
     
 }
 
@@ -235,8 +235,7 @@ button:focus {
 .content {
     overflow: scroll;
     background-color: #efefef;
-    padding: 2em;
-    padding-bottom: 13em;
+    padding: 2.5em 3em 13em 3em;
     position: relative;
     
 }
@@ -330,8 +329,8 @@ button:focus {
 
 .close {
     transition: 0.2s;
-    top: 5em;
-    right: 1.5em;
+    top: 4em;
+    right: .5em;
     position: fixed;
     z-index: 2;
     visibility: hidden;
@@ -351,8 +350,9 @@ button:focus {
 }
 
 .artDescript {
-    float: left; 
-    padding-left: 5em;
+    float: right;
+    width: 45%;
+    background-color: mediumpurple;
 }
 
 
