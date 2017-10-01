@@ -26,7 +26,7 @@ h3{ /* BODY TITLES*/
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
 
@@ -43,9 +43,10 @@ h4{ /*MENU ITEM*/
 h5{
     font-family: "Open Sans", sans-serif;
     letter-spacing: 2px;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 300;
     margin: 0;
+    padding-bottom: 0.5em;
 }
 
 p{
@@ -203,7 +204,7 @@ p{
 
 
 .art {
-  background-color:green;
+  background-color: #e3e3e3;
   margin: 0 18px 18px 18px;
   width: 220px;
   height: 220px;
@@ -252,7 +253,8 @@ button:focus {
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    width: 90%;
     
 }
 
@@ -318,8 +320,8 @@ button:focus {
 
 #demoReelDescript {
     float: left; 
-    padding-left: 2.5em;
-    background-color: pink;
+    padding: 0 0em 5em 2.5em;
+    
 }
 
 .noScroll {
@@ -352,6 +354,7 @@ button:focus {
 .artDescript {
     float: right;
     width: 50%;
+    margin: 0;
     padding-bottom: 2em;
 }
 
@@ -365,4 +368,35 @@ button:focus {
 .logo {
     width: 35px;
     padding-right: 10px;
+}
+
+.model3D {
+    height: 20em;
+    width: 20em;
+    display: inline-block;
+    padding-top: 2em;
+}
+
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+
+.miscArt {
+    float: left;
+    width: 250px;
+}
+
+.miscArt img{
+    width: 100%;
+}
+
+.textureImg{
+    height: 20em; 
+    width: 20em;
 }
