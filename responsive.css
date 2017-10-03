@@ -15,7 +15,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
     
     #body{
         padding: 0em 1em 1em 1em;
@@ -71,9 +71,7 @@
     }
     
     .infoBox{
-        width: 505px;
-        float: none;
-        margin: 2em auto;
+        width: 450px;
         
     }
     
@@ -91,33 +89,62 @@
         top: 4em;
         right: .5em;
         position: fixed;
-        z-index: 2;
+        z-index: 1;
         visibility: hidden;
         cursor: pointer;
         font-size: 25px;
     }
     
     .art3D{
-        width: 400px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    
+     .art3DMain{
+        width: 100%;
+        padding-bottom: 10px;
     }
     
     .video3D {
         height: 23em;
         width: 100%;
         float: left;
-        padding-bottom: 2em;
     
     }
     
     .artDescript {
         width: 100%;
+        padding-bottom: 2em;
     }
+    
+    
+    .artDescriptText {
+        width: 400px;
+        margin: 0em;
+    }
+
     
     .content{
         padding: 2em 2em 8em 2em;
         overflow-x: hidden;
     }
     
+    .flex-container2{
+        justify-content: flex-start;
+    }
+    .gameDescriptText{
+        padding: 1em 0;
+    }
+    
+    #games .video3D{
+        margin-bottom: 0em;
+        padding-bottom: 0;
+    }
+    
+    #games .infoBox{
+    margin-bottom: 1em;
+}
+
 }
     
 
@@ -148,9 +175,7 @@
     
     
     .infoBox{
-        width: 320px;
-        float: none;
-        margin: 1em auto;
+        width: auto;
         
     }
     
@@ -174,6 +199,10 @@
         width: 335px;
     }
     
+  .art3DMain{
+        width: 335px;
+    }
+    
     .model3D {
         height: 335px;
         width: 335px;
@@ -191,5 +220,29 @@
     
     .art p{
         font-size: 8pt;
+        line-height: 11pt;
     }
+    
+    .art h5{
+        font-size: 12pt;
+        padding-bottom: 10px;
+        
+    }
+    
+    .artDescriptText {
+       width: auto;
+    }
+
+    #mainArtDescript{
+        padding: 10px;
+    }
+    
+    .gameDescriptText{
+        width: auto;
+        margin: 0;
+    }
+    .photo {
+    width: 100%;
+}
+    
 }

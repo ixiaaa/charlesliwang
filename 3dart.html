@@ -56,7 +56,7 @@
                 
                 
                 <div id="nameHeader">
-                    <a href="index.html"><h1>Charles Wang</h1></a>
+                    <h1>Charles Wang</h1>
                     <h2>3D Artist, Game Developer, CG Programmer</h2>
                 </div>
                
@@ -81,8 +81,8 @@
                     
                 
                 <li class="art">
-                    <div style="padding: 1em"><h5 style="text-align: center;">3D ART</h5>
-                    <p>This is some of my 3D artwork. I like to use ZBrush, Maya, Redshift, and many other software because I am a smart babe!!!</p>
+                    <div id="mainArtDescript"><h5 style="text-align: center;">3D ART</h5>
+                    <p>These are some of the projects I'm most proud of. Character creation is what got me into 3D art, but I'm also a big fan of shading and lighting and I dabble in animation.</p>
                     </div>
                 
                 </li>
@@ -107,9 +107,9 @@
                     <button onClick="openPopUp('skull_pop')"><img src="3dart/summonedskull_sq.jpg" class="btnimage hvr-grow"></button>
                 </li>
                 
-                <!--TIME WIZARD-->
+                <!--FOX-->
                 <li class="art">
-                    <button onClick="openPopUp('timewizard_pop')"><img src="3dart/timewizard_sq.jpg" class="btnimage hvr-grow"></button>
+                    <button onClick="openPopUp('fox_pop')"><img src="3dart/fox_sq.png" class="btnimage hvr-grow"></button>
                 </li>
                 
                 <!--env_anim_sq-->
@@ -137,49 +137,64 @@
                 
 		          <div class="content">
                         
-                        
-		                <div class="artDescript">
-                            <h3>MACHAMP VS. NIDOKING</h3>
-                            <p>Here is a description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                            <br>
-                            <img src="logos/arnold.png" class="logo">
-                            <img src="logos/redshift.png" class="logo">
-                            <img src="logos/maya.png" class="logo">
-                            <img src="logos/sp.png" class="logo">
-                            <img src="logos/zbrush.png" class="logo">
+                       
+                      
+                                            
+                      <div style="margin: 0 auto;">
+                          <div class="artDescript">
+                              
+                              <div class="artDescriptText"><h3 style="margin-top:0;">MACHAMP VS. NIDOKING</h3>
+                            <p>This old school Pokemon reimagination is pretty much at the core of why I love computer graphics: inventive characters brought to life through engrossing environments and subtle movement.</p>
+                                  
+                                  <div style="padding-top: 30px">
+                             
+                              <img src="logos/arnold.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                                  </div>
                         </div>
-                      
                         <div class="video3D">  
-                            <iframe src="https://player.vimeo.com/video/203716582" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                            <img src="3dart/pokemonbattle_with_wire.png" style="width: 100%;">
-                      <div style="clear:both">   </div>   
+                            <iframe src="https://player.vimeo.com/video/203716582" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                      </div>
+                            
+                        
+                       
+                      </div>        
+                            
+                      <div style="clear:both"></div>
+                        
+                      <div style="">
+                        <img src="3dart/pokemonbattle_with_wire.png" class="art3D">
+                        <img src="3dart/pokemonbattle_wire2.png" class="art3D" >
+                       
+                      </div>
+                      
+                
                       
                       
-                      <div style="display:inline-block;">
+                      <ul class="flex-container2">
+                          <li id="battleTextures">
                         <div class="model3D">
                             <iframe width="100%" height="100%" src="https://sketchfab.com/models/3763c84043ca4fb092527de2142b801b/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe></div>
                         <img src="3dart/machamp_maps.jpg" class="textureImg">
-                            
-                       </div>
-                      
-                      
-                      <div style="display:inline-block;">
-                       
+                       </li>
+                          <li id="battleTextures">
+                          
                         <div class="model3D">
                             <iframe width="100%" height="100%" src="https://sketchfab.com/models/23d719cef06f402b8eb9611961654e49/embed" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
                         </div>
                         <img src="3dart/nidoking_maps.jpg"  class="textureImg">
-                        
-                      
-                      </div>
-                            
-                      
-                </div>
-                
+                            </li>
+                </ul>
+                    
 	         </div> 
             </div>
-        
+                </div>
+            
         
             <!--GUITAR CONTENT-->
             <div id="guitar_pop" class="overlay1wrapper">
@@ -187,14 +202,27 @@
             <div class="overlay1">
                 
 		          <div class="content">
-                      <div class="artDescript">
-                            <h3> NOT MACHAMP</h3>
-                      </div>
                       
-                      <div class="video3D"><iframe src="https://player.vimeo.com/video/235677510" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                      </div>
                       
-                     
+                          <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">HOME STUDIO</h3>
+                            <p style="text-align: justify">This scene is built off of one of my very first modeling projects—the guitar that sits in focus of the shot. This project served mostly as Redshift rendering practice and helped me develop an appreciation for small details in lighting in enclosed environments.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/ps.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                              </div>
+                      
+                          <div class="video3D">
+                              <iframe src="https://player.vimeo.com/video/235677510" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                      
 		          </div>
                 
 	        </div> 
@@ -206,37 +234,103 @@
             <div class="overlay1">
                 
 		          <div class="content">
-                      <img src='3dart/maskgirl.png' class="art3D">
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">HANNYA MASK AND HUMAN</h3>
+                            <p style="text-align: justify">Concept by: <a href="https://www.instagram.com/p/BV7cBk4gKb4/?hl=en&taken-by=_jordiros_" target="_blank">@_jordiros_</a>.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                    
+                      <img src='3dart/maskgirl.png' class="art3DMain">
+
+                      
 		          </div>
                 
 	        </div> 
             </div>
             
             
-            <!--SKULL CONTENT-->
+            <!--YUGIOH CONTENT-->
             <div id="skull_pop" class="overlay1wrapper">
 
             <div class="overlay1">
                 
 		          <div class="content">
-                      <img src='3dart/summonedskull.png' class="art3D" class="art3D">
+                      
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">YUGIOH</h3>
+                            <p style="text-align: justify">Turning childhood favorites into something more dimensional.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                    
+                      
+                      <img src='3dart/summonedskull.png' class="art3DMain">
+                      <div style="clear:both"></div>
+                      <img src='3dart/timewizard.png' class="art3DMain">
+                      
+                      <img src='3dart/timewizard2.png' class="art3DMain">
 		          </div>
                 
 	        </div> 
             </div>
             
-            <!--TIME WIZARD CONTENT-->
-            <div id="timewizard_pop" class="overlay1wrapper">
+            <!--FOX CONTENT-->
+            <div id="fox_pop" class="overlay1wrapper">
 
             <div class="overlay1">
                 
 		          <div class="content">
-                      <img src='3dart/timewizard.png' class="art3D" class="art3D"><br>
-                      <img src='3dart/timewizard2.png' class="art3D" class="art3D">
-		          </div>
+                      
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">FOX</h3>
+                            <p style="text-align: justify">I play a lot of Smash.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/sp.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                      
+                      <img src="3dart/fox.png" class="art3DMain">
+                      <div style="clear:both"></div>
+                      
+                      
+                      <div class="model3D"><iframe width="100%" height="100%" src="https://sketchfab.com/models/6458b780f8c9414d8b2e85f7c55dabe2/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+                    
+                      </div>
+                      
+                      <img src="3dart/foxmetalrough.jpg" class="textureImg">
+                      <img src="3dart/foxnormdiff.jpg" class="textureImg">
+                      <img src="3dart/fox_head_vcol.jpg" class="textureImg">
                 
 	        </div> 
             </div> 
+            </div>
             
             <!--env_anim CONTENT-->
             <div id="env_anim_pop" class="overlay1wrapper">
@@ -244,7 +338,23 @@
             <div class="overlay1">
                 
 		          <div class="content">
-                      <div class="video"><iframe src="https://player.vimeo.com/video/225715487" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+                      
+                        <div class="artDescript">
+                        <div class="artDescriptText"><h3 style="margin-top:0;">COEXIST - Environmental Animation Final Project</h3>
+                            <p style="text-align: justify">My final project for FNAR547 - Environmental Animation and The University of Pennsylvania. I wanted to play around with the concept of characters as part of large scale environment. I also used this project to practice fully procedural textures in Maya and Redshift and contrasted them with completely hand modeled environmental assets.</p>
+                                  
+                            <div style="padding-top: 30px">
+                             
+                              <img src="logos/redshift.png" class="logo">
+                                <img src="logos/maya.png" class="logo">
+                                <img src="logos/zbrush.png" class="logo">
+                              </div>
+                                  
+                            </div>
+                            </div>
+                    
+                      
+                      <div class="video3D"><iframe src="https://player.vimeo.com/video/225715487" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 		          </div>
                 
 	        </div> 
@@ -258,12 +368,17 @@
                 
 		          <div class="content">
                       
-                      <div class="infoBox">
+                      <div class="artDescriptText">
                           <h5>MISC.</h5>
                           <p>Hello this is some misc. work.</p>
                       </div>
                       
                       <div class="miscArt">
+                          
+                
+                          <img src="3dart/morty_1.png" hoversrc="morty.gif">
+
+<!--
                         <img src="3dart/morty_1.png" class="static">
                         <img src="3dart/morty.gif" class="active">
                       </div>
@@ -271,12 +386,12 @@
                       <div class="miscArt">
                         <img src="3dart/mask_anim1.png" class="static">
                         <img src="3dart/mask_anim400.gif" class="active">
+-->
                       </div>
 		          </div>
                 
 	        </div> 
             </div>
-            
             
         </section>
         

@@ -26,8 +26,10 @@ h3{ /* BODY TITLES*/
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 h4{ /*MENU ITEM*/
@@ -54,6 +56,7 @@ p{
     font-size: 12px;
     line-height: 18px;
     margin: 0;
+    text-align: justify;
 }
 
 #landing {
@@ -78,6 +81,7 @@ p{
     text-align: right;
     padding-top: 2em;
     padding-right: 5em;
+    display: block;
 
 }
 
@@ -91,6 +95,14 @@ p{
     background-color: white;
 }
 
+a{
+    text-decoration: none;
+    color: #165c84;
+}
+
+a:visited{
+    color: #243b78;
+}
 
 .menu{
     min-width: 300px;
@@ -117,7 +129,8 @@ p{
     height: 25em;
     width: 45%;
     float: left;
-    padding: 0 2em 2em 0;
+    padding-bottom: 2em;
+    display: inline-block;
     
 }
 
@@ -150,8 +163,8 @@ p{
 .overlay {
     height: 100%;
     width: 0%;
+    z-index: 3;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
@@ -236,8 +249,9 @@ button:focus {
 .content {
     overflow: scroll;
     background-color: #efefef;
-    padding: 2.5em 3em 13em 3em;
+    padding: 2em 3em 13em 3em;
     position: relative;
+    z-index: -1;
     
 }
 
@@ -312,14 +326,15 @@ button:focus {
 }
 
 .infoBox {
-    width: 230px; 
-    float: left; 
-    background-color: #efefef;
+    width: 470px; 
+    background-color: #e3e3e3;
     padding: 1em;
+    margin-bottom: 1em;
 }
 
 #demoReelDescript {
     float: left; 
+    
     padding: 0 0em 5em 2.5em;
     
 }
@@ -334,7 +349,7 @@ button:focus {
     top: .75em;
     right: .5em;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     visibility: hidden;
     cursor: pointer;
     font-size: 30px;
@@ -344,7 +359,7 @@ button:focus {
     height: 0%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 7em;
     left: 0;
     transition: .5s;
@@ -352,27 +367,23 @@ button:focus {
 }
 
 .artDescript {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding-bottom: 2em;
+    width: 45%;
+    display: inline-block;
 }
 
 
 .art3D {
     width: 45%;
-    display: block;
-    padding: 0 2em 2em 0;
 }
 
 .logo {
-    width: 35px;
+    width: 40px;
     padding-right: 10px;
 }
 
 .model3D {
-    height: 20em;
-    width: 20em;
+    height: 300px;
+    width: 300px;
     display: inline-block;
     padding-top: 2em;
 }
@@ -397,6 +408,56 @@ button:focus {
 }
 
 .textureImg{
-    height: 20em; 
-    width: 20em;
+    height: 300px; 
+    width: 300px;
+}
+.flex-container2 {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#battleTextures {
+    padding-right: 10px;
+}
+
+
+
+.artDescriptText {
+    width: 350px;
+    margin: 2em;
+    display: inline-block;
+}
+
+#mainArtDescript {
+    padding: 1.5em;
+}
+
+
+
+.art3DMain {
+    width: 45%;
+    float: left;
+    padding: 0 15px 30px 0;
+}
+
+
+
+.gameDescriptText {
+    width: 45%;
+    max-width: 450px;
+    margin: 2em;
+    display: inline-block;
+}
+
+.photo {
+    width: 49%;
+}
+
+#games .infoBox{
+    margin-bottom: 3em;
 }
