@@ -47,18 +47,18 @@
     }
     
     .art{
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
         
     }
     button{
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
     }
     
     .btnimage{
-        width: 250px;
-        height: 250px;
+        width: 220px;
+        height: 220px;
     }
     
     .navBarDesktop{
@@ -134,6 +134,7 @@
     }
     .gameDescriptText{
         padding: 1em 0;
+        width: auto;
     }
     
     #games .video3D{
@@ -141,7 +142,7 @@
         padding-bottom: 0;
     }
     
-    #games .infoBox{
+    #graphics .infoBox{
     margin-bottom: 1em;
 }
 
@@ -196,7 +197,7 @@
     }
     
     .art3D{
-        width: 335px;
+        width: 100%;
     }
     
   .art3DMain{
@@ -240,9 +241,15 @@
     .gameDescriptText{
         width: auto;
         margin: 0;
+        
     }
     .photo {
     width: 100%;
-}
+    }
+    
+    .miscArt{
+        width: 335px;
+        height: 335px;
+    }
     
 }

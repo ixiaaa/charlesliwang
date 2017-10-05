@@ -22,10 +22,26 @@ function openPopUp(thisid) {
     document.getElementById(thisid).style.height = "100%";
     activeID = thisid;
     //document.getElementById(id).style.overflow = "auto";
-}
+};
 
 function closePopUp() {
     document.getElementById("closebutton").style.visibility = "hidden";
     document.getElementById(activeID).style.height = "0%";
+};
+
+
+//$(document).ready(function(){
+//    $("img").hover(function(){
+//        $(this).css("opacity", "0.0");
+//        }, function(){
+//        $(this).css("opacity", "1.0");
+//    });
+//});
+
+function showGif(x){
+    x.style.opacity = '0';
 }
 
+function hideGif(x){
+    x.style.opacity = '1';
+}
