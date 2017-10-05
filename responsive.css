@@ -97,7 +97,7 @@
     
     .art3D{
         width: 100%;
-        padding-bottom: 10px;
+        padding-bottom: 2em;
     }
     
      .art3DMain{
@@ -253,6 +253,13 @@
     }
     
     #lorisPic {
-    width: 250px;
-}
+        width: 250px;
+    }
+    
+    #graphics .video3D{
+        padding-bottom: 0;
+    } 
+    #graphics .art3D{
+        padding-bottom: 0;
+    }
 }
