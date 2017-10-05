@@ -45,3 +45,12 @@ function showGif(x){
 function hideGif(x){
     x.style.opacity = '1';
 }
+
+function showIrena(){
+    document.getElementById("IRENA").style.opacity = '1';
+    document.getElementById("leaf").style.filter = 'grayscale(0%)';
+}
+
+function hideIrena(){
+    document.getElementById("IRENA").style.opacity = '0'; document.getElementById("leaf").style.filter = 'grayscale(100%)';
+}

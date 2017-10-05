@@ -452,10 +452,14 @@ button:focus {
 
 .photo {
     width: 49%;
+    padding-bottom: 10px;
+    
 }
 
 #graphics .infoBox{
+    padding: 1em 0;
     margin-bottom: 3em;
+    width: 45%;
 }
 
 .poop {
@@ -470,11 +474,32 @@ button:focus {
 }
 
 #loris {
+}
+
+#lorisPic {
+    width: 300px;
     position: fixed;
     bottom: 0;
     right: 0;
 }
 
-#lorisPic {
-    width: 450px;
+#leaf {
+    position: fixed;
+    right: 10px;
+    bottom: 120px;
+    width: 30px;
+    filter: grayscale(100%);
+}
+
+#IRENA {
+    background-color: #6f8c4f;
+    color: white;
+    border-radius: 10px;
+    position:fixed;
+    width: 160px;
+    z-index: 4;
+    right: 5px;
+    bottom: 5px;
+    padding: 2px 5px;
+    opacity: 0;
 }

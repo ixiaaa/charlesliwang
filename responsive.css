@@ -135,16 +135,23 @@
     .gameDescriptText{
         padding: 1em 0;
         width: auto;
+        margin: 0 auto;
     }
     
-    #games .video3D{
+    #graphics .video3D{
+        margin-bottom: 0em;
+        padding-bottom: 0;
+    }
+    
+    #graphics .art3D{
         margin-bottom: 0em;
         padding-bottom: 0;
     }
     
     #graphics .infoBox{
     margin-bottom: 1em;
-}
+        width: auto;
+    }
 
 }
     
@@ -253,7 +260,7 @@
     }
     
     #lorisPic {
-        width: 250px;
+        width: 200px;
     }
     
     #graphics .video3D{
@@ -261,5 +268,10 @@
     } 
     #graphics .art3D{
         padding-bottom: 0;
+    }
+    
+    #leaf{
+        bottom: 75px;
+        right: 5px;
     }
 }
